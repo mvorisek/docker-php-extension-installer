@@ -65,14 +65,7 @@ jobs:
     strategy:
       matrix:
         distro:
-          - alpine3.7
-          - alpine3.8
-          - alpine3.9
-          - alpine3.10
-          - alpine3.11
           - alpine3.12
-          - jessie
-          - stretch
           - buster
           - phpdaily-alpine
     name: Check on ${{ matrix.distro }}
